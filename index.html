@@ -25,7 +25,17 @@
 						<li><a class="link" href="#contact-section">Контакти</a></li>
 					</ul>
 				</nav>
-				<button class="button modal-btn-open" type="button">Замовити дзвінок</button>
+				<button class="header__button button modal-btn-open" type="button">Замовити дзвінок</button>
+				<button class="header__burger menu-btn-open" type="button">
+					<svg width="24" height="24">
+						<use href="./images/icons.svg#icon-menu"></use>
+					</svg>
+				</button>
+				<div class="mobile-menu">
+					<button class="mobile-menu__btn-close menu-btn-close" type="button">
+						Close
+					</button>
+				</div>
 			</div>
 		</div>
 	</header>
@@ -35,6 +45,7 @@
 				<h1 class="hero-section__title">
 					<span class="text-brand">Сучасна</span> пекарня
 				</h1>
+				<button class="hero-section__button button modal-btn-open" type="button">Замовити дзвінок</button>
 			</div>
 		</section>
 		<section class="advantages-section">
@@ -59,11 +70,11 @@
 							Ми працюємо як найвідоміші мережі – <span class="text-brand text-bold">5&nbsp;хвилин і замовлення готове</span>. <br>А ще у наших пекарень стильний дизайн та висока якість обслуговування!
 						</p>
 					</div>
-					<img src="./images/baker-man.jpg" alt="Чоловік пекар дивиться на батони із посмішкою">
+					<img class="traditions-section__image" srcset="./images/baker-man.jpg 1x, ./images/baker-man@2x.jpg 2x" src="./images/baker-man.jpg" alt="Чоловік пекар дивиться на батони із посмішкою">
 				</div>
 			</div>
 		</section>
-		<section class="chefs-section section" id="chefs-section">
+		<!-- <section class="chefs-section section" id="chefs-section">
 			<div class="container">
 				<h2 class="chefs-section__title section__title section__title--centered">
 					Наші найкращі <br>
@@ -100,8 +111,8 @@
 					</li>
 				</ul>
 			</div>
-		</section>
-		<section class="formats-section section" id="formats-section">
+		</section> -->
+		<!-- <section class="formats-section section" id="formats-section">
 			<div class="container">
 				<h2 class="formats-section__title section__title section__title--centered">Формати</h2>
 				<div class="formats-section__container">
@@ -155,8 +166,8 @@
 					</button>
 				</div>
 			</div>
-		</section>
-		<section class="contact-section section" id="contact-section">
+		</section> -->
+		<!-- <section class="contact-section section" id="contact-section">
 			<div class="container">
 				<div class="contact-section__container">
 					<div class="contact-section__form">
@@ -194,9 +205,9 @@
 					<iframe class="contact-section__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.154939957969!2d30.488688708021492!3d50.456839408468134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce637bfe1717%3A0x5370c2254ad1b952!2z0LLRg9C70LjRhtGPINCh0ZbRh9C-0LLQuNGFINCh0YLRgNGW0LvRjNGG0ZbQsiwgNTQsINCa0LjRl9CyLCAwMjAwMA!5e0!3m2!1suk!2sua!4v1699388515810!5m2!1suk!2sua" width="600" height="595" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 				</div>
 			</div>
-		</section>
+		</section> -->
 	</main>
-	<footer class="footer">
+	<!-- <footer class="footer">
 		<div class="container">
 			<div class="footer-container">
 				<nav class="footer-nav">
@@ -245,7 +256,7 @@
 				</address>
 			</div>
 		</div>
-	</footer>
+	</footer> -->
 	<div class="backdrop is-hidden">
 		<div class="modal">
 			<button class="modal__btn-close modal-btn-close" type="button">Close</button>
@@ -283,6 +294,7 @@
 	</div>
 
 	<script src="./js/modal.js"></script>
+	<script src="./js/mobile-menu.js"></script>
 </body>
 
 </html>
