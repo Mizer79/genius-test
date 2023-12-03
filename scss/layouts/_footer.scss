@@ -1,7 +1,6 @@
 .footer {
 	padding: 32px 0;
 	position: relative;
-	z-index: -1;
 	background-color: var(--color-primary-dark);
 	background-image: url(../images/footer-background.png);
 	background-repeat: no-repeat;
@@ -11,7 +10,6 @@
 	&::before,
 	&::after {
 		position: absolute;
-		z-index: -1;
 		bottom: 0;
 		background-repeat: no-repeat;
 		content: '';
